@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <i class="bi bi-grid-fill"></i>
+                <span>Galery</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0 ">
+                    <li class="nav-item ">
+                        <a href="#inicio" class="nav-link" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#artistas" class="nav-link">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pinturas" class="nav-link">Pinturas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- carousel -->
+    <section id="inicio">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/img-1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img-2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img-3.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img-4.jpg" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- carousel -->
+
+
+    <!-- principal -->
+    <main class="bg-dark text-white py-5" id="artistas">
+        <div class="container">
+            <h2 class="text-center desplay-4 mb-5">Artistas</h2>
+            <div class="row align-middle">
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3">
+                    <div class="card bg-dark text-center " style="width: 18rem;">
+                        <img src="./img/pintores/picasso.jpg" class="card-img-top" alt="..." height="330" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pablo Picasso</h5>
+                            <p class="card-text">Pablo Ruiz Picasso 1881-197 fue un pintor y escultor español</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3">
+                    <div class="card bg-dark text-center" style="width: 18rem;">
+                        <img src="./img/pintores/van-gogh.jpg" class="card-img-top" alt="..." height="330" />
+                        <div class="card-body">
+                            <h5 class="card-title">Vincent van Gogh</h5>
+                            <p class="card-text">Vincent Willem van Gogh fue un pintor neerlandés, uno de los principales exponentes del postimpresionismo.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3">
+                    <div class="card bg-dark text-center" style="width: 18rem;">
+                        <img src="./img/pintores/da-vinci.jpg" class="card-img-top" alt="..." height="330" />
+                        <div class=" card-body ">
+                            <h5 class="card-title ">Leonardo da vinci</h5>
+                            <p class="card-text ">fue un polímata florentino del Renacimiento italiano. Fue a la vez pintor, anatomista, arquitecto, paleontólogo, artista, botánico, científico, escritor, escultor, filósofo, ingeniero, inventor, músico, poeta y urbanista.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/claude-monet.jpeg" class="card-img-top " alt="... " height="330 " />
+                        <div class="card-body ">
+                            <h5 class="card-title ">Claude Monet</h5>
+                            <p class="card-text ">fue un pintor francés, uno de los creadores del impresionismo. El término impresionismo deriva del título de su obra Impresión, sol naciente.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/Diego.jpg" class="card-img-top " alt="... " height="330 " />
+                        <div class=" card-body ">
+                            <h5 class="card-title ">Diego Velázquez</h5>
+                            <p class="card-text ">fue un pintor barroco español considerado uno de los máximos exponentes de la pintura española y maestro de la pintura universal.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/dali.jpg" class="card-img-top " alt="... " height="330&gt;                         &lt;div class=" card-body="" _="" />
+                        <h5 class="card-title ">Salvador dalí</h5>
+                        <p class="card-text ">fue un pintor, escultor, grabador, escenógrafo y escritor español del siglo XX. Se le considera uno de los máximos representantes del surrealismo.</p>
+                        <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- principal -->
+
+    <!-- system-row -->
+    <section class="text-white" id="pinturas">
+        <div class="container ">
+            <h2 class="text-center text-dark desplay-4 my-5 ">Pinturas</h2>
+            <div class="row align-middle ">
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/monna.jpeg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">La monna lisa</h5>
+                            <p class="card-text ">es una obra pictórica del polímata renacentista italiano Leonardo da Vinci. Fue adquirida por el rey Francisco I de Francia a comienzos del siglo XVI y desde entonces es propiedad del Estado francés.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/la-noche.jpg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">La noche estrellada</h5>
+                            <p class="card-text ">es un óleo sobre lienzo del pintor postimpresionista neerlandés Vincent van Gogh. Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación de asilo en Saint-Rémy-de-Provence, justo antes
+                                del amanecer, con la adición de un pueblo imaginario.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/Guernica.jpg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Guernica</h5>
+                            <p class="card-text ">es un cuadro de Pablo Picasso, pintado en París entre los meses de mayo y junio de 1937, cuyo título alude al bombardeo de Guernica, ocurrido el 26 de abril de dicho año, durante la guerra civil española.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/meninas.jpg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Las meninas</h5>
+                            <p class="card-text ">Las meninas o La familia de Felipe IV se considera la obra maestra del pintor del Siglo de Oro español Diego Velázquez. Acabado en 1656, según Antonio Palomino, fecha unánimemente aceptada por la crítica, corresponde al último
+                                periodo estilístico del artista, el de plena madurez.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/sol.jpg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Impresión, sol naciente</h5>
+                            <p class="card-text ">es un cuadro del pintor francés Claude Monet, que dio su nombre al movimiento impresionista. Se conserva en el Museo Marmottan Monet de París. Pintado aproximadamente en el año 1872, representa el puerto de Le Havre, ciudad
+                                en la que Monet pasó parte de la vida.</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-sm-flex justify-content-sm-center mb-sm-3 ">
+                    <div class="card bg-dark text-center " style="width: 18rem; ">
+                        <img src="./img/pintores/pinturas/persistencia.jpeg " class="card-img-top " alt="... " height="350 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">La persistencia de la memoria</h5>
+                            <p class="card-text ">conocido también como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor español Salvador Dalí pintado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista</p>
+                            <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sistem-row -->
+
+    <!-- pie de pagina -->
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center mt-5">
+                <i class="bi bi-messenger h2 mx-4"></i>
+                <i class="bi bi-facebook h2"></i>
+                <i class="bi bi-skype h2 mx-4"></i>
+                <i class="bi bi-whatsapp h2"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- pie de pagina -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+
+
+
+</body>
+
+</html>
+<section>
+
+</section>
